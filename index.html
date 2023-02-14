@@ -1,33 +1,24 @@
 <!doctype html>
 <html>
 <head>
-    <!-- Google tag (gtag.js) 시청자 분석기 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4CFCKFX00B"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-4CFCKFX00B');
-    </script>
-
+    <script src="analysis.js"></script>
     <title>WEB1 - HTML</title>
     <meta charset"utf-8>
     <link rel="stylesheet" href="style.css">
+    <script src="color.js"></script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
     <div id="grid">
         <ol>
+            <input type="button" value="night" onclick="
+            nightDayHandler(this);
+             "><p></p>
             <LI><a href="1.html">HTML</a></LI>
             <LI><a href="2.html">CSS</a></LI>
             <LI><a href="3.html">JavaScript</a></LI>
         </ol>
-        <!--<ul>
-        <LI>황규섭</LI>
-            <LI>이기열</LI>
-            <LI>피콜로</LI>
-        </ul>-->
         <div>
             <h2>Programer이란 무엇인가</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
@@ -39,18 +30,6 @@
             <br><img src="computer.jpg" width="50%"> <br>For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.</p>
         </div>
     </div>
-    <!--Start of Tawk.to Script 실시간채팅-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/63df14d64742512879118846/1gofmipsr';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+    <script src="talk.js"></script>
 </body>
 </html>
